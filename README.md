@@ -1,4 +1,4 @@
-# Meet-Up
+# Meet-Up 📲
 ## Project Description:
 Meet-up is a serverless, progressive web application, that gives its users a way to search for upcoming events by city to meet people and find interesting experiences.
 Meet-up is built with React and uses the test driven development technique to deliver high quality code.
