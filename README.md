@@ -1,7 +1,9 @@
 # Meet-Up 📲
 ## Project Description:
-Meet-up is a serverless, progressive web application, that gives its users a way to search for upcoming events by city to meet people and find interesting experiences.
+Meet-up is a serverless progressive web application that gives its users a way to search for upcoming events by city to meet people and find interesting experiences.
 Meet-up is built with React and uses the test driven development technique to deliver high quality code.
+Meet App uses serverless functions with  AWS Lambda for its authorization server. With this authentication, users can login with their google account to be able to view the calendar events in the app. Using serverless functions will be most beneficial to this app to provide the services needed rather than building and maintaining my own server for authorization.
+  
 
 ### User Stories: 
 Feature 2: Show/Hide Event Details
