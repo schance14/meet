@@ -1,16 +1,16 @@
 import { useState } from "react";
 
-const NumberOfEvents = () => {
+const NumberOfEvents = ({ setCurrentNOE }) => {
   const handleInputChanged = (event) => {
     const value = event.target.value;
+    setCurrentNOE(value);
   };
-  const [eventNumber, setEventNumber] = useState("32");
   return (
     <div id="number-of-events">
       <input
         type="text"
         id="eventInputNumber"
-        value={eventNumber}
+        defaultValue="32"
         onChange={handleInputChanged}
       />
     </div>
