@@ -2,10 +2,12 @@
 .App {
   text-align: center;
   padding: 2% 5%;
+  background-color: #d6d6e7;
 }
 
 .App * {
   box-sizing: border-box;
+ 
 }
 
 ul {
@@ -75,6 +77,12 @@ input[type="number"] {
   border: 1px solid #ccc;
   border-radius: 4px;
   position: relative;
+  box-shadow: 0 6.4px 14.4px 0 rgb(0 0 0 / 13%), 0 1.2px 3.6px 0 rgb(0 0 0 / 11%);
+  background-color: #f5f5fa;
+}
+
+.event h3 {
+  color: #23263b;
 }
 
 .details-btn {
@@ -85,4 +93,5 @@ input[type="number"] {
   border-radius: 4px;
   outline: none;
   cursor: pointer;
+  background-color: #9698c3;
 }
