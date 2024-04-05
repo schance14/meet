@@ -21,7 +21,7 @@ Feature 6: Display Charts Visualizing Event Details
 Feature 2- 
 scenario 1: Given an event element is collapsed by default, when a user does a search, then the event should stay collapsed while scrolling.
 scenario 2: Given a user can expand an event to see details, when a user clicks the expand button, then event details should be shown.
-scenario 3: Given a user can collapse an event to hide details, when a user clicks the collapse button, the event details should become hidden.
+scenario 3: Given a user can collapse an event to hide details, when a user clicks the collapse button, then the event details should become hidden.
 
 Feature 3- 
 scenario 1: Given a user hasn’t specified a number, when a user does a search, then 32 events are shown as the default. 
