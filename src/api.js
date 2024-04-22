@@ -16,6 +16,7 @@ export const getEvents = async () => {
     const events = localStorage.getItem("lastEvents");
     return events ? JSON.parse(events) : [];
   }
+
   const token = await getAccessToken();
 
   if (token) {
