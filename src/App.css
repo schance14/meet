@@ -128,3 +128,14 @@ input[type="number"] {
   font-weight: 200;
   font-style: italic;
 }
+
+.charts-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 768px) {
+  .charts-container {
+    grid-template-columns: 1fr;
+  }
+}
