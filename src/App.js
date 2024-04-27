@@ -5,6 +5,7 @@ import CitySearch from "./components/CitySearch";
 import EventList from "./components/EventList";
 import NumberOfEvents from "./components/NumberOfEvents";
 import CityEventsChart from "./components/CityEventsChart";
+import EventGenresChart from "./components/EventGenresChart";
 import { InfoAlert, ErrorAlert, WarningAlert } from "./components/Alert";
 
 const App = () => {
@@ -53,6 +54,7 @@ const App = () => {
         setErrorAlert={setErrorAlert}
       />
       <div className="charts-container">
+        <EventGenresChart events={events} />
         <CityEventsChart allLocations={allLocations} events={events} />
       </div>
       <EventList events={events} />
