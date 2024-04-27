@@ -46,7 +46,7 @@ defineFeature(feature, (test) => {
       await user.type(citySearchInput, "Berlin");
     });
     then(
-      "the user should recieve a list of cities (suggestions) that match what they’ve typed",
+      "the user should recieve a list of cities (suggestions) that match what they’ve typed.",
       async () => {
         const suggestionListItems =
           within(CitySearchDOM).queryAllByRole("listitem");
@@ -92,7 +92,7 @@ defineFeature(feature, (test) => {
       }
     );
     and(
-      "the user should receive a list of upcoming events in that city",
+      "the user should receive a list of upcoming events in that city.",
       async () => {
         const EventListDOM = AppDOM.querySelector("#event-list");
         const EventListItems = within(EventListDOM).queryAllByRole("listitem");
